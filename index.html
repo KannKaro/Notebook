@@ -25,7 +25,11 @@
         <option value="200%">200%</option>
         <option value="300%">300%</option>
     </select>
-    <button type='button' id='save'>Download file</button>
+    <div>
+    <button type='button' id='save' onclick='saveFile()'>Download file</button>
+    <label for="file">Choose file to upload: </label> <input id="files" type="file">
+
+</div>
     <div>
         <textarea id='Container'></textarea>
     </div>
