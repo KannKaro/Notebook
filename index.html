@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <div id='header'>Notebook</div>
     <select id="input-font" class="input" onchange='FontStyle(this);'>
 
         <option id="ChooseStyle" selected="selected">
@@ -26,10 +27,10 @@
         <option value="300%">300%</option>
     </select>
     <div>
-    <button type='button' id='save' onclick='saveFile()'>Download file</button>
-    <label for="file">Choose file to upload: </label> <input id="files" type="file">
+        <button type='button' id='save' onclick='saveFile()'>Download file</button>
+        <label id='label' for="file">Choose file to upload: </label> <input id="files" type="file">
 
-</div>
+    </div>
     <div>
         <textarea id='Container'></textarea>
     </div>
